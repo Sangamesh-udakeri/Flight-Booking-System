@@ -1,6 +1,9 @@
 package com.vdit.model;
 
 
+import java.sql.Time;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Date;
 
 import jakarta.persistence.Entity;
@@ -23,5 +26,6 @@ public class Flight {
 	private String destination;
 	private String seatClass;
 	private Double price;
-	private Date   flyingDate;
+	private LocalDate   flyingDate;
+	
 }
